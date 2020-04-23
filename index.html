@@ -198,6 +198,13 @@
           <h4>Underground Movie Bunker</h4>
           <p>Made using HTML/Javascript</p>
         </div>
+
+        <div class="col-sm-4">
+          <a href="https://github.com/imjvdn/bamazon"><i class="fab fa-adn logo-small"></i><a></a>
+          <h4>Bamazon</h4>
+          <p>Made using node.js/mysql</p>
+        </div>
+        
         <div class="col-sm-4">
           <a href="https://github.com/imjvdn/lirinotsiri"><i class="fas fa-lira-sign logo-small"></i></i><a></a>
           <h4>Liri Not Siri</h4>
@@ -315,35 +322,6 @@
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    <script>
-      $(document).ready(function() {
-        $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
-          if (this.hash !== '') {
-            event.preventDefault();
-            var hash = this.hash;
-            $('html, body').animate(
-              {
-                scrollTop: $(hash).offset().top
-              },
-              900,
-              function() {
-                window.location.hash = hash;
-              }
-            );
-          } 
-        });
-
-        $(window).scroll(function() {
-          $('.slideanim').each(function() {
-            var pos = $(this).offset().top;
-            var winTop = $(window).scrollTop();
-            if (pos < winTop + 600) {
-              $(this).addClass('slide');
-            }
-          });
-        });
-      });
-    </script>
      <script src="lib/jquery/jquery.min.js"></script>
      <script src="lib/jquery/jquery-migrate.min.js"></script>
      <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>

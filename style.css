@@ -108,7 +108,7 @@ h4 {
 }
 .btn {
   padding: 10px 20px;
-  background-color: lime;
+  background-color: rgb(0, 0, 0);
   color: #f1f1f1;
   border-radius: 0;
   transition: 0.2s;
